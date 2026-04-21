@@ -97,7 +97,7 @@ class CStudioHdr;
 extern void FireTargets( const char *targetName, CBaseEntity *pActivator, CBaseEntity *pCaller, USE_TYPE useType, float value );
 
 // people gib if their health is <= this at the time of death
-#define	GIB_HEALTH_VALUE	-30
+#define	GIB_HEALTH_VALUE	-1
 
 #define MAX_OLD_ENEMIES		4 // how many old enemies to remember
 

@@ -71,7 +71,7 @@ int CBaseHLBludgeonWeapon::CapabilitiesGet()
 
 int CBaseHLBludgeonWeapon::WeaponMeleeAttack1Condition( float flDot, float flDist )
 {
-	if (flDist > 64)
+	if (flDist > 128)
 	{
 		return COND_TOO_FAR_TO_ATTACK;
 	}

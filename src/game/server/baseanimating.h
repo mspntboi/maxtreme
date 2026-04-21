@@ -171,9 +171,9 @@ public:
 	float	EdgeLimitPoseParameter( int iParameter, float flValue, float flBase = 0.0f );
 
 protected:
-	// The modus operandi for pose parameters is that you should not use the const char * version of the functions
-	// in general code -- it causes many many string comparisons, which is slower than you think. Better is to 
-	// save off your pose parameters in member variables in your derivation of this function:
+	/* The modus operandi for pose parameters is that you should not use the const char * version of the functions
+	   in general code -- it causes many many string comparisons, which is slower than you think. Better is to
+	   save off your pose parameters in member variables in your derivation of this function: */
 	virtual void	PopulatePoseParameters( void );
 
 
